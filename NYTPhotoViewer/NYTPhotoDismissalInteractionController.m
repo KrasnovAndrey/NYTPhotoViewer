@@ -39,15 +39,16 @@ static const CGFloat NYTPhotoDismissalInteractionControllerReturnToCenterVelocit
         }
         [self.transitionContext.containerView bringSubviewToFront:fromView];
     }
-
     // Pan the view on pace with the pan gesture.
-    viewToPan.center = newCenterPoint;
-    
+    [UIView animateWithDuration:0.2 animations:^{
+        viewToPan.center = newCenterPoint
+    }];
+
     CGFloat verticalDelta = newCenterPoint.y - anchorPoint.y;
     
     CGFloat backgroundAlpha = [self backgroundAlphaForPanningWithVerticalDelta:verticalDelta];
     fromView.backgroundColor = [fromView.backgroundColor colorWithAlphaComponent:backgroundAlpha];
-    
+
     if (panGestureRecognizer.state == UIGestureRecognizerStateEnded) {
         [self finishPanWithPanGestureRecognizer:panGestureRecognizer verticalDelta:verticalDelta viewToPan:viewToPan anchorPoint:anchorPoint];
     }

@@ -334,7 +334,7 @@
 					};
 					11FBDADB1C877BD600018169 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 6P29U2X5BH;
+						DevelopmentTeam = GSF678VB3S;
 						LastSwiftMigration = 0810;
 					};
 				};
@@ -763,11 +763,11 @@
 			baseConfigurationReference = D7D5ED9071C683B8C95D634A /* Pods-Example-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6P29U2X5BH;
+				DEVELOPMENT_TEAM = GSF678VB3S;
 				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.photoviewer.example.swift;
+				PRODUCT_BUNDLE_IDENTIFIER = "photoviewer.example.swift-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -779,11 +779,11 @@
 			baseConfigurationReference = 0EAFCA0D14C64E7A15FFE321 /* Pods-Example-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6P29U2X5BH;
+				DEVELOPMENT_TEAM = GSF678VB3S;
 				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.photoviewer.example.swift;
+				PRODUCT_BUNDLE_IDENTIFIER = "photoviewer.example.swift-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
